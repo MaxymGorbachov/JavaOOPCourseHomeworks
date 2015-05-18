@@ -1,11 +1,23 @@
 package lesson2.Car;
 
-/**
- * @author Alexander Tyshchenko.
- */
+
 public class Engine {
     private double mileage;
     private boolean started;
+
+
+    public int getConsumption() {
+        return consumption;
+    }
+
+    private int consumption;
+
+
+    public int fuelCons(double getVolume){
+     consumption = (int)(getVolume*10*0.5);
+        return consumption;
+    }
+
 
     public Engine(double mileage) {
         this.mileage = mileage;

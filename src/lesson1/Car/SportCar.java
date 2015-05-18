@@ -11,10 +11,7 @@ public class SportCar extends Car {
 
     @Override
     boolean startEngine() {
-        if (getFuel() < 15) {
-            return false;
-        }
-        return true;
+        return getFuel() >= 15;
     }
 
     @Override

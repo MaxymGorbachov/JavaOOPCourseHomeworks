@@ -4,7 +4,7 @@ package lesson2.Car;
 public class CarExample {
     public static void main(String[] args) {
         CarL2 bmw = new CarL2("BMW");
-        CarL2 ferrari = new CarL2("Ferrari", 20000,2.0);
+        CarL2 ferrari = new CarL2("Ferrari", 20000);
 
         System.out.println(bmw);
 
